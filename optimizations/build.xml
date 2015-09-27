@@ -1,0 +1,49 @@
+<!-- Build file for ABAGAIL (c) Andrew Guillory 2005 --><project default = "all">
+
+	<target name="init">
+		<property name="jdocs.dir" value="docs"/>
+		<property name="bin.dir" value="bin"/>
+		<property name="src.dir" value="src"/>
+	</target>
+
+	<target name="prepare" depends="init">
+		<mkdir dir="${bin.dir}"/>
+		<mkdir dir="${jdocs.dir}"/>
+	</target>
+
+	<target name = "compile" depends="prepare">
+		<mkdir dir="bin"/>
+
+		<javac srcdir= "src" destdir = "bin">
+		    <classpath>
+		        <pathelement path="lib/ABAGAIL.jar"/>
+		    </classpath>
+		</javac>
+
+	</target>
+
+	<target name = "jar" depends = "compile">
+
+		<manifest file = "manifest.mf"/>
+
+		<delete file = "randomized_optimizations.jar"/>
+
+		<jar basedir = "bin/" destfile = "randomized_optimizations.jar" manifest = "manifest.mf">
+			<zipgroupfileset dir="lib" includes="randomized_optimizations.jar" />
+		</jar>
+
+	</target>
+
+
+
+	<target name="clean">
+		<delete dir="${bin.dir}" />
+		<delete dir="${jdocs.dir}" />
+	</target>
+
+
+	<target name = "all" depends = "compile,jar"/>
+
+</project>
+
+		
