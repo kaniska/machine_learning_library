@@ -1,4 +1,4 @@
-Randomized Optimizations Example
+Reinforcement Learning Example
 =======
 
 The codebase uses ABAGAIL and BURLAP to perform MDP planning and learning.
