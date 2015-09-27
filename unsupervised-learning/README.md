@@ -1,4 +1,4 @@
-Randomized Optimizations Example
+Unsupervised Learning Example
 =======
 
 The codebase uses ABAGAIL to perform Unsupervised ALgo.
