@@ -5,7 +5,7 @@ Analysis of Supervised Learning Algorithms
 
 a. The training and test samples are available in  data/
 b. In the first problem, we apply the algos to the CreditRating data (mix of numerial, categorical data)
-i. We find that ÔReduce-Error PruningÕ offers best accuracy by effectively removing the noise of the data with a lower memory footprint. 
+i. We find that ÔReduce-Error Pruning offers best accuracy by effectively removing the noise of the data with a lower memory footprint. 
 c. In the second problem, we apply the algos to the Ionoshpere data (all continuous vales)
 i. We find that MultiLayerPerceptorn offers best accuracy , though it takes longer time to build models.
 
@@ -14,7 +14,7 @@ i. We find that MultiLayerPerceptorn offers best accuracy , though it takes long
 * The main source code : MLProgramSuite.java (package : com.mscourse.MLProgramSuite)
 o We can import algo-analysis-source as maven project into Eclipse IDE and run MLProgramSuite.java as a Java application with required arguments.
 
-* The executable  is Ômlprograms-1.0.0.jarÕ located in algo-analysis-cli/ 
+* The executable  is Ômlprograms-1.0.0.jar located in algo-analysis-cli/ 
 * We can run the tool as follows :
 o java -jar mlprograms-1.0.0.jar CreditRating-train.arff CreditRating-test.arff
 * we can specify any training and test datasets as the arguments.
