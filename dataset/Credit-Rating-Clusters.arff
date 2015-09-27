@@ -1,0 +1,103 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 5 -A "weka.core.EuclideanDistance -R first-last" -I 500 -S 10
+Relation:     GermanCredit
+Instances:    575
+Attributes:   32
+              OBS#
+              CHK_ACCT
+              DURATION
+              HISTORY
+              NEW_CAR
+              USED_CAR
+              FURNITURE
+              RADIO/TV
+              EDUCATION
+              RETRAINING
+              AMOUNT
+              SAV_ACCT
+              EMPLOYMENT
+              INSTALL_RATE
+              MALE_DIV
+              MALE_SINGLE
+              MALE_MAR_or_WID
+              CO-APPLICANT
+              GUARANTOR
+              PRESENT_RESIDENT
+              REAL_ESTATE
+              PROP_UNKN_NONE
+              AGE
+              OTHER_INSTALL
+              RENT
+              OWN_RES
+              NUM_CREDITS
+              JOB
+              NUM_DEPENDENTS
+              TELEPHONE
+              FOREIGN
+              RESPONSE
+Test mode:evaluate on training data
+
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 8
+Within cluster sum of squared errors: 3381.622945035516
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                              Cluster#
+Attribute          Full Data         0         1         2         3         4
+                       (575)      (75)     (144)     (164)     (111)      (81)
+==============================================================================
+OBS#                359.3687  225.7467  523.9097  224.5366   373.045  444.8272
+CHK_ACCT                   0         1         0         3         0         1
+DURATION             21.8574   18.9067     23.25   17.7805   27.0991   23.1852
+HISTORY                    2         2         2         2         4         2
+NEW_CAR                    0         0         0         0         0         0
+USED_CAR                   0         0         0         0         0         0
+FURNITURE                  0         1         0         0         0         0
+RADIO/TV                   0         0         0         0         0         0
+EDUCATION                  0         0         0         0         0         0
+RETRAINING                 0         0         0         0         0         0
+AMOUNT              3458.233 3377.4667 3132.7569 2478.6402 5256.3333 3630.9506
+SAV_ACCT                   0         0         0         0         0         0
+EMPLOYMENT                 2         2         2         2         4         1
+INSTALL_RATE          2.9809      2.32    3.4167    3.0244     3.027    2.6667
+MALE_DIV                   0         0         0         0         0         0
+MALE_SINGLE                1         1         1         0         1         0
+MALE_MAR_or_WID            0         0         0         0         0         0
+CO-APPLICANT               0         0         0         0         0         0
+GUARANTOR                  0         0         0         0         0         0
+PRESENT_RESIDENT           4         2         2         4         4         2
+REAL_ESTATE                0         0         0         0         0         0
+PROP_UNKN_NONE             0         0         0         0         1         0
+AGE                  35.0261   32.1333   32.7153   34.6707   43.4685    30.963
+OTHER_INSTALL              0         0         0         0         0         1
+RENT                       0         0         0         0         0         0
+OWN_RES                    1         1         1         1         0         1
+NUM_CREDITS           1.3774    1.2133    1.3125    1.3841    1.5405    1.4074
+JOB                        2         2         2         2         2         2
+NUM_DEPENDENTS        1.1443    1.1867    1.1667    1.0488    1.2523    1.1111
+TELEPHONE                  0         0         0         0         1         0
+FOREIGN                    0         0         0         0         0         0
+RESPONSE                   0         1         0         1         0         0
+
+
+
+
+Time taken to build model (full training data) : 0.02 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       75 ( 13%)
+1      144 ( 25%)
+2      164 ( 29%)
+3      111 ( 19%)
+4       81 ( 14%)
+
