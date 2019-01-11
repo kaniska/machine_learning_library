@@ -20,9 +20,9 @@ Build code
 Run from CLI (mac / linux)
 1. Local Random Search Algo
 java -cp randomized_optimizations.jar:lib/ABAGAIL.jar com.ml.tests.optimizations.CreditRatingTest
-2. 
-java -cp randomized_optimizations.jar:lib/ABAGAIL.jar com.ml.tests.optimizations.NQueensTest
-3.
-java -cp randomized_optimizations.jar:lib/ABAGAIL.jar com.ml.tests.optimizations.CartCenteringTest
-4.
-java -cp randomized_optimizations.jar:lib/ABAGAIL.jar com.ml.tests.optimizations.JobSchedulingTest
+
+2. java -cp randomized_optimizations.jar:lib/ABAGAIL.jar com.ml.tests.optimizations.NQueensTest
+
+3. java -cp randomized_optimizations.jar:lib/ABAGAIL.jar com.ml.tests.optimizations.CartCenteringTest
+
+4.  java -cp randomized_optimizations.jar:lib/ABAGAIL.jar com.ml.tests.optimizations.JobSchedulingTest
