@@ -13,11 +13,11 @@ import java.util.Scanner;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.FileSystemResource;
 
-import com.mscourse.ann.MLPTest;
-import com.mscourse.boosting.BoostingTest;
-import com.mscourse.dtree.J48Test;
-import com.mscourse.knn.KNNTest;
-import com.mscourse.svm.SVMTest;
+import com.ml.ann.MLPTest;
+import com.ml.boosting.BoostingTest;
+import com.ml.dtree.J48Test;
+import com.ml.knn.KNNTest;
+import com.ml.svm.SVMTest;
 
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
