@@ -1,4 +1,4 @@
-package com.mscourse.boosting;
+package com.ml.boosting;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -9,8 +9,8 @@ import weka.classifiers.functions.SMO;
 import weka.classifiers.meta.AdaBoostM1;
 import weka.classifiers.trees.J48;
 
-import com.mscourse.MLProgramSuite;
-import com.mscourse.algo.AlgoTest;
+import com.ml.MLProgramSuite;
+import com.ml.algo.AlgoTest;
 
 public class BoostingTest extends AlgoTest {
 
