@@ -1,12 +1,12 @@
 /**
  * 
  */
-package com.mscourse.algo;
+package com.ml.algo;
 
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 
-import com.mscourse.MLProgramSuite;
+import com.ml.MLProgramSuite;
 
 /**
  * @author kmanda1
