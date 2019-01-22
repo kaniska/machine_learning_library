@@ -1,12 +1,12 @@
-package com.mscourse.knn;
+package com.ml.knn;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 import org.springframework.core.io.ClassPathResource;
 
-import com.mscourse.MLProgramSuite;
-import com.mscourse.algo.AlgoTest;
+import com.ml.MLProgramSuite;
+import com.ml.algo.AlgoTest;
 
 import weka.classifiers.Evaluation;
 import weka.classifiers.functions.SMO;
