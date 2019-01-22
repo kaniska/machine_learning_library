@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mscourse.dtree;
+package com.ml.dtree;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -12,8 +12,8 @@ import java.util.Random;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.FileSystemResource;
 
-import com.mscourse.MLProgramSuite;
-import com.mscourse.algo.AlgoTest;
+import com.ml.MLProgramSuite;
+import com.ml.algo.AlgoTest;
 
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
